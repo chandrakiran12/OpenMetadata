@@ -17,6 +17,7 @@
 name: Publish openmetadata-ingestion-core packages
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - main
